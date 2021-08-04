@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'HeroDota' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for HeroDota
+  pod 'Toast-Swift', '~> 3.0.1'     # https://github.com/scalessec/Toast-Swift
+  pod 'Alamofire'                   # https://github.com/Alamofire/Alamofire
+  pod 'SwiftyJSON'                  # https://github.com/SwiftyJSON/SwiftyJSON
+  pod 'Kingfisher'
+  
+  target 'HeroDotaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HeroDotaUITests' do
+    # Pods for testing
+  end
+
+end
