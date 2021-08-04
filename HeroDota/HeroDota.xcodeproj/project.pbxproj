@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B2183D126BADC4C003ECFC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2183D026BADC4C003ECFC1 /* AppDelegate.swift */; };
+		8B2183D326BADC4C003ECFC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2183D226BADC4C003ECFC1 /* SceneDelegate.swift */; };
+		8B2183D526BADC4C003ECFC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2183D426BADC4C003ECFC1 /* ViewController.swift */; };
+		8B2183D826BADC4C003ECFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2183D626BADC4C003ECFC1 /* Main.storyboard */; };
+		8B2183DA26BADC4D003ECFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2183D926BADC4D003ECFC1 /* Assets.xcassets */; };
+		8B2183DD26BADC4D003ECFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2183DB26BADC4D003ECFC1 /* LaunchScreen.storyboard */; };
+		8B2183E826BADC4D003ECFC1 /* HeroDotaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2183E726BADC4D003ECFC1 /* HeroDotaTests.swift */; };
+		8B2183F326BADC4D003ECFC1 /* HeroDotaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2183F226BADC4D003ECFC1 /* HeroDotaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B2183E426BADC4D003ECFC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2183C526BADC4C003ECFC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B2183CC26BADC4C003ECFC1;
+			remoteInfo = HeroDota;
+		};
+		8B2183EF26BADC4D003ECFC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2183C526BADC4C003ECFC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B2183CC26BADC4C003ECFC1;
+			remoteInfo = HeroDota;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B2183CD26BADC4C003ECFC1 /* HeroDota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroDota.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2183D026BADC4C003ECFC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B2183D226BADC4C003ECFC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8B2183D426BADC4C003ECFC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B2183D726BADC4C003ECFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B2183D926BADC4D003ECFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B2183DC26BADC4D003ECFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B2183DE26BADC4D003ECFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2183E326BADC4D003ECFC1 /* HeroDotaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroDotaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2183E726BADC4D003ECFC1 /* HeroDotaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDotaTests.swift; sourceTree = "<group>"; };
+		8B2183E926BADC4D003ECFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2183EE26BADC4D003ECFC1 /* HeroDotaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroDotaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2183F226BADC4D003ECFC1 /* HeroDotaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDotaUITests.swift; sourceTree = "<group>"; };
+		8B2183F426BADC4D003ECFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B2183CA26BADC4C003ECFC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2183E026BADC4D003ECFC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2183EB26BADC4D003ECFC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B2183C426BADC4C003ECFC1 = {
+			isa = PBXGroup;
+			children = (
+				8B2183CF26BADC4C003ECFC1 /* HeroDota */,
+				8B2183E626BADC4D003ECFC1 /* HeroDotaTests */,
+				8B2183F126BADC4D003ECFC1 /* HeroDotaUITests */,
+				8B2183CE26BADC4C003ECFC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B2183CE26BADC4C003ECFC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B2183CD26BADC4C003ECFC1 /* HeroDota.app */,
+				8B2183E326BADC4D003ECFC1 /* HeroDotaTests.xctest */,
+				8B2183EE26BADC4D003ECFC1 /* HeroDotaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B2183CF26BADC4C003ECFC1 /* HeroDota */ = {
+			isa = PBXGroup;
+			children = (
+				8B2183D026BADC4C003ECFC1 /* AppDelegate.swift */,
+				8B2183D226BADC4C003ECFC1 /* SceneDelegate.swift */,
+				8B2183D426BADC4C003ECFC1 /* ViewController.swift */,
+				8B2183D626BADC4C003ECFC1 /* Main.storyboard */,
+				8B2183D926BADC4D003ECFC1 /* Assets.xcassets */,
+				8B2183DB26BADC4D003ECFC1 /* LaunchScreen.storyboard */,
+				8B2183DE26BADC4D003ECFC1 /* Info.plist */,
+			);
+			path = HeroDota;
+			sourceTree = "<group>";
+		};
+		8B2183E626BADC4D003ECFC1 /* HeroDotaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B2183E726BADC4D003ECFC1 /* HeroDotaTests.swift */,
+				8B2183E926BADC4D003ECFC1 /* Info.plist */,
+			);
+			path = HeroDotaTests;
+			sourceTree = "<group>";
+		};
+		8B2183F126BADC4D003ECFC1 /* HeroDotaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B2183F226BADC4D003ECFC1 /* HeroDotaUITests.swift */,
+				8B2183F426BADC4D003ECFC1 /* Info.plist */,
+			);
+			path = HeroDotaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B2183CC26BADC4C003ECFC1 /* HeroDota */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2183F726BADC4D003ECFC1 /* Build configuration list for PBXNativeTarget "HeroDota" */;
+			buildPhases = (
+				8B2183C926BADC4C003ECFC1 /* Sources */,
+				8B2183CA26BADC4C003ECFC1 /* Frameworks */,
+				8B2183CB26BADC4C003ECFC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroDota;
+			productName = HeroDota;
+			productReference = 8B2183CD26BADC4C003ECFC1 /* HeroDota.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B2183E226BADC4D003ECFC1 /* HeroDotaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2183FA26BADC4D003ECFC1 /* Build configuration list for PBXNativeTarget "HeroDotaTests" */;
+			buildPhases = (
+				8B2183DF26BADC4D003ECFC1 /* Sources */,
+				8B2183E026BADC4D003ECFC1 /* Frameworks */,
+				8B2183E126BADC4D003ECFC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2183E526BADC4D003ECFC1 /* PBXTargetDependency */,
+			);
+			name = HeroDotaTests;
+			productName = HeroDotaTests;
+			productReference = 8B2183E326BADC4D003ECFC1 /* HeroDotaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B2183ED26BADC4D003ECFC1 /* HeroDotaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2183FD26BADC4D003ECFC1 /* Build configuration list for PBXNativeTarget "HeroDotaUITests" */;
+			buildPhases = (
+				8B2183EA26BADC4D003ECFC1 /* Sources */,
+				8B2183EB26BADC4D003ECFC1 /* Frameworks */,
+				8B2183EC26BADC4D003ECFC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2183F026BADC4D003ECFC1 /* PBXTargetDependency */,
+			);
+			name = HeroDotaUITests;
+			productName = HeroDotaUITests;
+			productReference = 8B2183EE26BADC4D003ECFC1 /* HeroDotaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B2183C526BADC4C003ECFC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8B2183CC26BADC4C003ECFC1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					8B2183E226BADC4D003ECFC1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 8B2183CC26BADC4C003ECFC1;
+					};
+					8B2183ED26BADC4D003ECFC1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 8B2183CC26BADC4C003ECFC1;
+					};
+				};
+			};
+			buildConfigurationList = 8B2183C826BADC4C003ECFC1 /* Build configuration list for PBXProject "HeroDota" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B2183C426BADC4C003ECFC1;
+			productRefGroup = 8B2183CE26BADC4C003ECFC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B2183CC26BADC4C003ECFC1 /* HeroDota */,
+				8B2183E226BADC4D003ECFC1 /* HeroDotaTests */,
+				8B2183ED26BADC4D003ECFC1 /* HeroDotaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B2183CB26BADC4C003ECFC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2183DD26BADC4D003ECFC1 /* LaunchScreen.storyboard in Resources */,
+				8B2183DA26BADC4D003ECFC1 /* Assets.xcassets in Resources */,
+				8B2183D826BADC4C003ECFC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2183E126BADC4D003ECFC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2183EC26BADC4D003ECFC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B2183C926BADC4C003ECFC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2183D526BADC4C003ECFC1 /* ViewController.swift in Sources */,
+				8B2183D126BADC4C003ECFC1 /* AppDelegate.swift in Sources */,
+				8B2183D326BADC4C003ECFC1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2183DF26BADC4D003ECFC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2183E826BADC4D003ECFC1 /* HeroDotaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2183EA26BADC4D003ECFC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2183F326BADC4D003ECFC1 /* HeroDotaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B2183E526BADC4D003ECFC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B2183CC26BADC4C003ECFC1 /* HeroDota */;
+			targetProxy = 8B2183E426BADC4D003ECFC1 /* PBXContainerItemProxy */;
+		};
+		8B2183F026BADC4D003ECFC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B2183CC26BADC4C003ECFC1 /* HeroDota */;
+			targetProxy = 8B2183EF26BADC4D003ECFC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B2183D626BADC4C003ECFC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B2183D726BADC4C003ECFC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B2183DB26BADC4D003ECFC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B2183DC26BADC4D003ECFC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B2183F526BADC4D003ECFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B2183F626BADC4D003ECFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B2183F826BADC4D003ECFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LCXQAP4CM;
+				INFOPLIST_FILE = HeroDota/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masqod.hero-dota.HeroDota";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B2183F926BADC4D003ECFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LCXQAP4CM;
+				INFOPLIST_FILE = HeroDota/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masqod.hero-dota.HeroDota";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B2183FB26BADC4D003ECFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LCXQAP4CM;
+				INFOPLIST_FILE = HeroDotaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masqod.hero-dota.HeroDotaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroDota.app/HeroDota";
+			};
+			name = Debug;
+		};
+		8B2183FC26BADC4D003ECFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LCXQAP4CM;
+				INFOPLIST_FILE = HeroDotaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masqod.hero-dota.HeroDotaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroDota.app/HeroDota";
+			};
+			name = Release;
+		};
+		8B2183FE26BADC4D003ECFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LCXQAP4CM;
+				INFOPLIST_FILE = HeroDotaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masqod.hero-dota.HeroDotaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroDota;
+			};
+			name = Debug;
+		};
+		8B2183FF26BADC4D003ECFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LCXQAP4CM;
+				INFOPLIST_FILE = HeroDotaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masqod.hero-dota.HeroDotaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroDota;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B2183C826BADC4C003ECFC1 /* Build configuration list for PBXProject "HeroDota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2183F526BADC4D003ECFC1 /* Debug */,
+				8B2183F626BADC4D003ECFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2183F726BADC4D003ECFC1 /* Build configuration list for PBXNativeTarget "HeroDota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2183F826BADC4D003ECFC1 /* Debug */,
+				8B2183F926BADC4D003ECFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2183FA26BADC4D003ECFC1 /* Build configuration list for PBXNativeTarget "HeroDotaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2183FB26BADC4D003ECFC1 /* Debug */,
+				8B2183FC26BADC4D003ECFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2183FD26BADC4D003ECFC1 /* Build configuration list for PBXNativeTarget "HeroDotaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2183FE26BADC4D003ECFC1 /* Debug */,
+				8B2183FF26BADC4D003ECFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B2183C526BADC4C003ECFC1 /* Project object */;
+}
